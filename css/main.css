@@ -58,7 +58,7 @@
 .contact-info-page{
     width: 100%;
     height: 800px;
-    background-color: aqua;
+    background-color: #e6e6e6;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -77,15 +77,44 @@
 #contact-title{
     font-size: 22px;
 }
+.contactmanieren{
+    width: 75%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .tel-nummer-box, .sociaal-media-box{
     width: 10%;
     height: 100px;
     background-color: white;
     display: flex;
+    flex-direction: column;
 }
 
 #tel-nummer{
     text-decoration: none;
+}
+
+.klacht-box{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+#klacht-text{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#contact-klacht{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
 }
 
 .uitleg-box{
@@ -109,4 +138,12 @@
     width: 300px;
     height: 230px;
     background-color: #e6e6e6;
+}
+.about-us-page, .wie-wij-zijn-part, .waar-het-begon-part, .doel-part, .aanbieding-part{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
