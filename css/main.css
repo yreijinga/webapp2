@@ -101,30 +101,10 @@
 .bestemming-lijst {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
-.polar-box {
-    margin: 20px;
-    width: 300px;
-    height: 230px;
-    background-color: #e6e6e6;
-}
-
-.parijs-box {
-    margin: 20px;
-    width: 300px;
-    height: 230px;
-    background-color: #e6e6e6;
-}
-
-.the-underworld-box {
-    margin: 20px;
-    width: 300px;
-    height: 230px;
-    background-color: #e6e6e6;
-}
-
-.alola-box {
+.polar-box, .parijs-box, .de-onderworld-box, .alola-box {
     margin: 20px;
     width: 300px;
     height: 230px;
