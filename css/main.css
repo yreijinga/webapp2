@@ -27,12 +27,12 @@
     align-items: center;
     justify-content: space-around;
 }
-.btn-places, .btn-about, .btn-contact{
+.btn-places, .btn-about, .btn-contact, .btn-log-in{
     color: #000;
     text-decoration: none;
     transition: all 0.2s;
 }
-.btn-places:hover, .btn-about:hover, .btn-contact:hover{
+.btn-places:hover, .btn-about:hover, .btn-contact:hover, .btn-contact:hover{
     color: #fcf278;
     text-decoration: none;
     transition: all 0.2s;
